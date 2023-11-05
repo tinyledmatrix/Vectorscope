@@ -48,8 +48,8 @@ The design is done in Altium Circuit Maker and in addition to the [board file](h
 There is also a WiP (Work in Progress) version of the [board file i KiCad format](hardware/vectorscope/vectorscope.kicad_pcb?raw=true). It's not perfect as some of the conversion didn't go perfect (eg. incorrect ground plane size and connections), but for mechanical use (eg. case design) it should be OK, though not all 3D models are available in the default KiCad repository.
 
 If you want to build you own based on the Gerbers here some notes:
-- T1 needs to be solderd flipped (deadbug) an rotated. Like in this image. You see the backside of the Fet. Pins ned to get bend a little bit.
-
+- T1 needs to be solderd flipped (deadbug) and rotated. Like in this image. You see the backside of the Fet. Pins need to get bend a little bit.
+![deadbugFix](hardware/bugfixT1.jpeg =x250)
 
 ### Inspiration
 
